@@ -18,7 +18,7 @@ else:
     print('you have earned 10 points')
     
 #3.3
-favorite_fruits = ['apple', 'pear', 'grapes' ]
+favorite_fruits = ['pineapple', 'orange', 'apple' ]
 
 if 'pineapple' in favorite_fruits: 
     print('Wow, you really like pineapple')
@@ -30,14 +30,15 @@ if 'apple' in favorite_fruits:
     print ('Wow, you really like apples')
     
 #3.4
-age = 15
+age = 30
+
 
 if age <= 10:
     print('Person is a Kid')
 elif 10<age<=20 :
     print('Person is a teenager')
-elif 20<age<=65:
+else:
     print('Person is an adult')
     
-elif age>65:
-    print('Person is an elder')
+    if age>65:
+        print('Person is an elder')
