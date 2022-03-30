@@ -49,6 +49,21 @@ print(result)
 for word in 'this is my 6th string'.split():
     print(len(word))
     
+#3.7
+my_tweet = {
+    "favorite_count":1138,
+"lang": "en",
+"coordinates": (-75, 40),
+"entities": { 'hashtags': ["Preds", "Pens", "SingIntoSpring"]}
+}
+
+print(my_tweet['entities'])
+
+result = 0
+for hashtag in my_tweet['entities']['hashtag']:
+    result = result + 1
+print(result)
+
     
 
 
