@@ -52,6 +52,7 @@ for word in 'this is my 6th string'.split():
 #3.7
 my_tweet = {
     "favorite_count":1138,
+<<<<<<< HEAD
     "lang": "en",
     "coordinates":(-75,40),
     "entities": {"hashtags": ["Preds", "Pens", "SingIntoSpring"]} 
@@ -61,6 +62,20 @@ my_tweet = {
 for h in "entities".split():
     print(len(h))
     
+=======
+"lang": "en",
+"coordinates": (-75, 40),
+"entities": { 'hashtags': ["Preds", "Pens", "SingIntoSpring"]}
+}
+
+print(my_tweet['entities'])
+
+result = 0
+for hashtag in my_tweet['entities']['hashtag']:
+    result = result + 1
+print(result)
+
+>>>>>>> 56cf70f23e78194c47f69a32cf201f7c53dd563c
     
 
 
